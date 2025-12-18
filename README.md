@@ -2,4 +2,4 @@
 Rekonstrukce hry Alicia Online pro studijní účely.
 
 Postup:
-1. Instalace Ghidry pro dekódování (https://ghidralite.com/)
+1. Instalace Ghidry pro dekódování ([https://ghidralite.com/](https://github.com/NationalSecurityAgency/ghidra))
