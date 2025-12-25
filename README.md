@@ -1,4 +1,4 @@
-#Installing your own local development server for Story of Alicia
+# Installing your own local development server for Story of Alicia
   Hi im writing this guide down as I struggled with following the HOWTORUN.md from (https://github.com/Story-Of-Alicia/alicia-server/tree/master) provided by the development team, because im not very competent. 
 
 1. Install Alicia
