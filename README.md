@@ -41,6 +41,14 @@ Add PostgreSQL to PATH by running Windows key + R and typing sysdm.cpl<br>
 Download and install Windows Docker https://www.docker.com/products/docker-desktop/
 
 ## Building alicia-server
-Now open up 
-
-
+Open a new Powershell window in and navigate to ```C:\Users\_YOURUSERNAMEHERE_ <br>```. <br>
+1. clone the repository
+> git clone https://github.com/Story-Of-Alicia/alicia-server.git
+2. change direction to the alicia-server folder
+> cd alicia-server
+3. Initialize the repository's submodules
+> git submodule update --init --recursive
+4. Create the build directory and tell cmake to use vcpkg
+cmake -S . -B build ^
+  -DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake
+cmake --build build
