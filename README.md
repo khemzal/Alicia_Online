@@ -37,5 +37,10 @@ Download and [https://www.postgresql.org/docs/current/libpq.html](https://www.po
 Add PostgreSQL to PATH by running Windows key + R and typing sysdm.cpl<br> 
 <img width="1489" height="557" alt="obrazek" src="https://github.com/user-attachments/assets/197c8136-9d0f-406e-9818-96845ca07b48" />
 
+### Docker
+Download and install Windows Docker https://www.docker.com/products/docker-desktop/
+
+## Building alicia-server
+Now open up 
 
 
