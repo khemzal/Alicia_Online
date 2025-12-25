@@ -9,7 +9,7 @@
 <img width="212" height="186" alt="obrazek" src="https://github.com/user-attachments/assets/dedf17c8-3ee7-476c-b9f1-5252d719dc70" />
 
 ### Github 
-Most users do have Github installed and are logged in. However, if not, create an account on github.com and run the downloader installer from https://desktop.github.com/download/. Make sure add GIT to Path is enabled. You can check by running Powershell and typing ```git --version``` <br> <img width="218" height="63" alt="obrazek" src="https://github.com/user-attachments/assets/beeedc76-5c4d-4ab4-867a-d3f06214bbea" />
+Most users do have Github installed and are logged in. However, if not, create an account on github.com and run the downloaded installer from https://desktop.github.com/download/. Make sure add GIT to Path is enabled. You can check by running Powershell and typing ```git --version``` <br> <img width="218" height="63" alt="obrazek" src="https://github.com/user-attachments/assets/beeedc76-5c4d-4ab4-867a-d3f06214bbea" />
 ### CMake
 Go to https://cmake.org/download/ and follow the same process. Here is the list of copatible versions with Boost (https://stackoverflow.com/questions/42123509/cmake-finds-boost-but-the-imported-targets-not-available-for-boost-version)
 Make sure Add CMAKE to Path is enabled. 
