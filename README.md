@@ -15,8 +15,9 @@ Go to https://cmake.org/download/ and follow the same process. Here is the list 
 Make sure Add CMAKE to Path is enabled. 
 ### A C++20 compatible compiler
 Visual Studio 2019 and newer.
-### vpkg ```cd C:\
-git clone https://github.com/microsoft/vcpkg.git```
+### vpkg 
+```cd C:\```
+```git clone https://github.com/microsoft/vcpkg.git```
 
 Open up powershell and type 
 ### Boost
