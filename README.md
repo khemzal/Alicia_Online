@@ -1,4 +1,4 @@
-Installation and set-up loclalhost (127.0.0.1) Story of Alicia for local development (on your own computer) and testing. 
+#Installing your own local development server for Story of Alicia
   Hi im writing this guide down as I struggled with following the HOWTORUN.md from (https://github.com/Story-Of-Alicia/alicia-server/tree/master) provided by the development team, because im not very competent. 
 
 1. Install Alicia
