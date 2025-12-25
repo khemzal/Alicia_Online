@@ -33,9 +33,9 @@ Go to https://original.boost.org/users/download/ and download the .zip or .7z fi
 
 ### libpq
 PostgreSQL comes vwith libpq.
-Download and [https://www.postgresql.org/docs/current/libpq.html](https://www.postgresql.org/download/). Run the installer. Choose your own password for the superuser. Keep the port at 5432. Keep the locale to default. You can close the Stack Builder, we dont need it.
-Add PostgreSQL to PATH by running Windows key + R and typing sysdm.cpl 
-Add PostfreSQL to PATH
+Download and [https://www.postgresql.org/docs/current/libpq.html](https://www.postgresql.org/download/). Run the installer. Choose your own password for the superuser. Keep the port at 5432. Keep the locale to default. You can close the Stack Builder, we dont need it. <br>
+Add PostgreSQL to PATH by running Windows key + R and typing sysdm.cpl<br> 
+Add PostfreSQL to PATH<br>
 <img width="1489" height="557" alt="obrazek" src="https://github.com/user-attachments/assets/197c8136-9d0f-406e-9818-96845ca07b48" />
 
 
