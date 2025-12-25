@@ -10,6 +10,16 @@
 
 ### Github 
 Most users do have Github installed and are logged in. However, if not, create an account on github.com and run the downloader installer from https://desktop.github.com/download/. Make sure add GIT to Path is enabled. You can check by running Powershell and typing ```git --version``` <br> <img width="218" height="63" alt="obrazek" src="https://github.com/user-attachments/assets/beeedc76-5c4d-4ab4-867a-d3f06214bbea" />
+### CMake
+Go to https://cmake.org/download/ and follow the same process. Here is the list of copatible versions with Boost (https://stackoverflow.com/questions/42123509/cmake-finds-boost-but-the-imported-targets-not-available-for-boost-version)
+Make sure Add CMAKE to Path is enabled. 
+### A C++20 compatible compiler
+Visual Studio 2019 and newer.
+### vpkg ```cd C:\
+git clone https://github.com/microsoft/vcpkg.git```
 
+Open up powershell and type 
+### Boost
+Go to https://original.boost.org/users/download/ and download the .zip or .7z file. Exctract it. Open C:\Program Files on the side. Go inside of the extracted file and from there move the boost folder over to the Program Files directory.  
 
 
