@@ -15,19 +15,28 @@ Go to https://cmake.org/download/ and follow the same process. Here is the list 
 Make sure Add CMAKE to Path is enabled. 
 ### A C++20 compatible compiler
 Visual Studio 2019 and newer.
-### vpkg 
+### Boost
+
 Open up Powershell and type 
-```cd C:\Users\_YOURUSERNAMEHERE_``` <br>
+```cd C:\Users\_YOURUSERNAMEHERE_ <br>```
 ```git clone https://github.com/microsoft/vcpkg.git```<br>
 ```cd C:\Users\_YOURUSERNAMEHERE_\vcpkg```<br>
 ```bootstrap-vcpkg.bat```<br>
 Now you should have ```cd C:\Users\_YOURUSERNAMEHERE_\vcpkg\vcpkg.exe``` <br><img width="715" height="670" alt="obrazek" src="https://github.com/user-attachments/assets/452c0370-9ec7-4a2e-b1e8-17b47d9929c0" /> <br>
 ```vcpkg integrate install```<br>
 
-### Boost
-In Powershell
+In a new Powershell window
 ```cd C:\Users\_YOURUSERNAMEHERE_\vcpkg```<br>
 ```vcpkg install boost``` (if you are using Command line type ```./vcpkg install boost```) <br>
+
 Go to https://original.boost.org/users/download/ and download the .zip or .7z file. Exctract it. Open C:\Program Files on the side. Go inside of the extracted file and from there move the boost folder over to the Program Files directory.  
+
+### libpq
+PostgreSQL comes vwith libpq.
+Download and [https://www.postgresql.org/docs/current/libpq.html](https://www.postgresql.org/download/). Run the installer. Choose your own password for the superuser. Keep the port at 5432. Keep the locale to default. You can close the Stack Builder, we dont need it.
+Add PostgreSQL to PATH by running Windows key + R and typing sysdm.cpl 
+Add PostfreSQL to PATH
+<img width="1489" height="557" alt="obrazek" src="https://github.com/user-attachments/assets/197c8136-9d0f-406e-9818-96845ca07b48" />
+
 
 
