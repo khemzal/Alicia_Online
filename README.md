@@ -4,7 +4,7 @@
 ## Install Alicia
   1. install Alicia from one of the provided links from chrommds server site (https://bruhvrum.github.io/registertest/play.html) <br> <img width="954" height="187" alt="obrazek" src="https://github.com/user-attachments/assets/4a251e99-5550-418a-9fde-c17eb5910971" />
   2. Run the Story of Alicia Setup <br> <img width="340" height="89" alt="obrazek" src="https://github.com/user-attachments/assets/cdd199c0-79fa-411e-8eaf-19b20be54956" />
-  3. You can now find the Alicia.exe file in C:\Users\_YOURUSERNAMEHERE_\AppData\Roaming\Story of Alicia\game   (search %appdata% to open in folder search on Windows) <br> <img width="974" height="579" alt="obrazek" src="https://github.com/user-attachments/assets/6568b781-b81e-44f0-8a81-2a02ff66da35" />
+  3. You can now find the Alicia.exe file in ```C:\Users\_YOURUSERNAMEHERE_\AppData\Roaming\Story of Alicia\game```   (search %appdata% to open in folder search on Windows) <br> <img width="974" height="579" alt="obrazek" src="https://github.com/user-attachments/assets/6568b781-b81e-44f0-8a81-2a02ff66da35" />
 ## Installing the reqired dependencies
 <img width="212" height="186" alt="obrazek" src="https://github.com/user-attachments/assets/dedf17c8-3ee7-476c-b9f1-5252d719dc70" />
 
@@ -16,10 +16,14 @@ Make sure Add CMAKE to Path is enabled.
 ### A C++20 compatible compiler
 Visual Studio 2019 and newer.
 ### vpkg 
-```cd C:\```
-```git clone https://github.com/microsoft/vcpkg.git```
-
 Open up powershell and type 
+```cd C:\Users\_YOURUSERNAMEHERE_``` <br>
+```git clone https://github.com/microsoft/vcpkg.git```<br>
+```cd C:\Users\_YOURUSERNAMEHERE_\vcpkg```<br>
+```bootstrap-vcpkg.bat```<br>
+Now you should have ```cd C:\Users\_YOURUSERNAMEHERE_\vcpkg\vcpkg.exe``` <br><img width="715" height="670" alt="obrazek" src="https://github.com/user-attachments/assets/452c0370-9ec7-4a2e-b1e8-17b47d9929c0" />
+
+
 ### Boost
 Go to https://original.boost.org/users/download/ and download the .zip or .7z file. Exctract it. Open C:\Program Files on the side. Go inside of the extracted file and from there move the boost folder over to the Program Files directory.  
 
